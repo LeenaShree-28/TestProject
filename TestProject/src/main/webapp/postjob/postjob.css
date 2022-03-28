@@ -1,0 +1,35 @@
+*,html,body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+#container{
+    position: absolute;
+    left: 35%;
+    top: 3%;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 12px 12px 5px #aaaaaa;
+    text-align: center;
+}
+#container div{
+    margin: 25px;
+}
+h2{
+    color: #129A74;
+}
+#submitButton{
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 20px;
+    border: 0;
+    text-align: center;
+    font-size: medium;
+    color: white;
+    background-color: #129A74;
+}
+#submitButton:active{
+    transform: scale(0.8);
+}

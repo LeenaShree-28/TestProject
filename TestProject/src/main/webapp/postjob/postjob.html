@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link href="postjob.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="container" action="" method="post">
+        <h2>Post A Job</h2>
+        <div>
+            <label for="role">Designation :</label>
+            <input type="text" id="role" name="designation" required/>
+        </div>
+        <div>
+            <label for="description">Job Description :</label>
+            <textarea id="description" name="description" rows="2" cols="17"></textarea>
+        </div>
+        <div>
+            <label for="lastDate">Last date for apply job :</label>
+            <input type="date" id="lastDate" name="lastDate" />
+        </div>
+        <div>
+            <label for="vacancy">No of vacancy :</label>
+            <input type="number" id="vacancy" name="vacancy" min="1"/>
+        </div>
+        <div>
+            <span>Job Type :</span>
+            <input type="radio" id="fullTime" name="jobType"/>
+            <label for="fullTime">Full Time</label>
+            <input type="radio" id="partTime" name="jobType"/>
+            <label for="partTime">Part Time</label>
+        </div>
+        <div>
+            <label for="minExp">Minimum Experience :</label>
+            <input type="number" id="minExp" name="minExperience" min="0"/><br><br>
+            <label for="maxExp">Maximum Experience :</label>
+            <input type="number" id="maxExp" name="maxExperience" min="0"/>
+        </div>
+        <div>
+            <label for="location">Location :</label>
+            <input type="text" id="location" name="location" required/>
+        </div>
+        <div>
+            <span>Work Place :</span>
+            <input type="radio" id="remote" name="workPlace"/>
+            <label for="remote">Remote</label>
+            <input type="radio" id="onSite" name="workPlace"/>
+            <label for="onSite">On-Site</label>
+        </div>
+        <div>
+            <label for="minSal">Minimum LPA :</label>
+            <input type="text" id="minSal" name="minSalary" /><br><br>
+            <label for="maxSal">Maximum LPA :</label>
+            <input type="text" id="maxSal" name="maxSalary" />
+        </div>
+        <button type="button" id="submitButton">Submit</button>
+    </form>
+</body>
+</html>

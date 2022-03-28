@@ -1,0 +1,33 @@
+*,html,body{
+    margin: 0px;
+}
+#postJobImg{
+    position: absolute;
+    right: 20%;
+    left: 20%;
+    bottom: 40%;
+    top: 10%;
+    border-radius: 1%;
+    background-image: url("/Job-Portal/images/postjobimage2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#buttonsContainer{
+    position: absolute;
+    left: 25%;
+    bottom: 20%;
+    width:50%;
+    text-align: center;
+}
+.buttons{
+    padding: 17px 20px;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bold;
+    background-color:#129A74;
+    border: 0px;
+    border-radius: 4px;
+}
+.buttons:active{
+    transform: scale(0.98);
+}
